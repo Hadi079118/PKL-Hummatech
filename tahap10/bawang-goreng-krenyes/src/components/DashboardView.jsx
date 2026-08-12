@@ -25,31 +25,31 @@ export function DashboardView({
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]"></div>
         <div className="absolute -right-16 -top-16 w-80 h-80 bg-[#ffdcc3] rounded-full blur-3xl opacity-20 pointer-events-none"></div>
 
-        <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 w-full">
           <div className="max-w-xl">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#ffdcc3]/20 text-[#ffdcc3] text-xs font-['Work_Sans'] font-semibold uppercase tracking-widest backdrop-blur-md mb-3">
               <span className="material-symbols-outlined text-[16px]">admin_panel_settings</span>
               Dapur Krenyes Control Center
             </span>
             <h1 className="font-['Plus_Jakarta_Sans'] font-extrabold text-2xl sm:text-4xl leading-tight mb-2">
-              Halo, Admin Kitchen! 👋
+              Halo, Admin Kitchen! 
             </h1>
             <p className="font-['Be_Vietnam_Pro'] text-sm text-[#ffdcc3]/90 leading-relaxed">
               Pantau performa penjualan, stok ketersediaan bawang goreng, dan kelola pesanan pelanggan Anda secara real-time dari satu tempat.
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-3">
+          <div className="w-full md:w-auto md:ml-auto flex flex-col sm:flex-row md:justify-end gap-3 md:min-w-[380px]">
             <button
               onClick={() => onNavigateTab('katalog-produk')}
-              className="px-5 py-2.5 rounded-xl bg-white text-[#8d4b00] font-['Work_Sans'] text-xs font-bold uppercase tracking-wider shadow-md hover:bg-[#fff1eb] transition-all flex items-center gap-2"
+              className="w-full sm:w-[220px] md:w-[220px] px-5 py-3 rounded-xl bg-white text-[#8d4b00] font-['Work_Sans'] text-xs font-bold uppercase tracking-wider shadow-md hover:bg-[#fff1eb] transition-all flex items-center justify-center gap-2"
             >
               <span className="material-symbols-outlined text-[18px]">storefront</span>
               Lihat Katalog
             </button>
             <button
               onClick={onOpenAddModal}
-              className="px-5 py-2.5 rounded-xl bg-[#b02d29] text-white font-['Work_Sans'] text-xs font-bold uppercase tracking-wider shadow-md hover:bg-[#8e1214] transition-all flex items-center gap-2"
+              className="w-full sm:w-[220px] md:w-[220px] px-5 py-3 rounded-xl bg-[#b02d29] text-white font-['Work_Sans'] text-xs font-bold uppercase tracking-wider shadow-md hover:bg-[#8e1214] transition-all flex items-center justify-center gap-2"
             >
               <span className="material-symbols-outlined text-[18px]">add</span>
               Tambah Produk

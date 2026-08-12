@@ -4,7 +4,6 @@ import { Header } from './components/Header.jsx';
 import { DashboardView } from './components/DashboardView.jsx';
 import { KatalogView } from './components/KatalogView.jsx';
 import { ManajemenStokView } from './components/ManajemenStokView.jsx';
-import { SettingsView } from './components/SettingsView.jsx';
 import { ProductModal } from './components/ProductModal.jsx';
 import { DeleteModal } from './components/DeleteModal.jsx';
 import { BuyModal } from './components/BuyModal.jsx';
@@ -196,8 +195,6 @@ export default function App() {
               onUpdateStock={handleUpdateStock}
             />
           )}
-
-          {currentTab === 'settings' && <SettingsView />}
         </div>
       </main>
 

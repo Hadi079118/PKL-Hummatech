@@ -6,7 +6,6 @@ export function Sidebar({ currentTab, onSelectTab, isOpenMobile, onCloseMobile }
     { id: 'dashboard', label: 'DASHBOARD', icon: 'dashboard' },
     { id: 'katalog-produk', label: 'KATALOG PRODUK', icon: 'inventory_2' },
     { id: 'manajemen-stok', label: 'MANAJEMEN STOK', icon: 'package_2' },
-    { id: 'settings', label: 'REST API GUIDE', icon: 'code' },
   ];
 
   return (
