@@ -1,0 +1,6 @@
+{
+  "name": "Bawang Goreng Krenyes",
+  "description": "Aplikasi Manajemen Stok dan Katalog Produk Bawang Goreng Krenyes dengan tema Crisp & Savory",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
